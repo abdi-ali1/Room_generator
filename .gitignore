@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment directories
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python egg and distribution files
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.egg
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*~
+# Ignore cache directory for Stable Diffusion models
+cache/

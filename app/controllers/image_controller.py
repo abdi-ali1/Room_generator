@@ -18,7 +18,7 @@ class ImageController(BaseController):
         @self.router.post("/generate")
         async def generate_image(request: ImageRequest):
             try:
-                # Genereer de afbeelding
+               
                 image = self.image_generator.generate_image(
                     prompt=request.prompt,
                     seed=request.seed,
